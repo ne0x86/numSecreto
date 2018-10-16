@@ -55,7 +55,7 @@ namespace ConsoleApp10
                         Console.WriteLine("Has acertado!!");
                         Console.WriteLine("Fin del juego!");
                     }
-                    if (intentos == 0)
+                    else if (intentos == 0)
                     {
                         Console.WriteLine("Te has quedado sin intentos");
                         Console.WriteLine("Fin del juego");
